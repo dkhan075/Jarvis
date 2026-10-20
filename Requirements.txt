@@ -1,0 +1,11 @@
+SpeechRecognition
+PyAudio
+pyttsx3
+gTTS
+pygame
+pyautogui
+pygetwindow
+pillow
+python-dotenv
+google-genai
+requests
