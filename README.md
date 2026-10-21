@@ -49,7 +49,7 @@ If Windows blocks the app (Smart App Control), turn that setting off temporarily
 1. Clone the repo and create a virtual environment:
 
 ```
-git clone <your-repo-url>
+git clone https://github.com/dkhan075/Jarvis.git
 cd jarvis
 python -m venv venv
 venv\Scripts\activate
