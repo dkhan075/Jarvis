@@ -1,17 +1,8 @@
-# Secrets - never commit these
 .env
-
-# Virtual environment
 venv/
-.venv/
-
-# Python cache
 __pycache__/
-*.pyc
-
-# Generated files
 screenshots/
-
+jarvis_data.json
 build/
-
 dist/
+*.spec
