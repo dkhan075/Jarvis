@@ -37,6 +37,13 @@ If Gemini is unavailable: keyword router (commands.py) handles basic commands.
 
 Each tool is a plain Python function. Gemini reads its name, type hints and docstring to decide when to call it, so the docstrings in `tools.py` act as instructions to the model. Tool output is treated as data, never as instructions, to reduce prompt-injection risk from web content such as headlines.
 
+## Download
+
+Grab the latest Windows build from the [Releases page](https://github.com/dkhan075/Jarvis/releases/latest).
+Extract it, add your own `.env` file next to `Jarvis.exe` (see `.env.example`), and run it.
+
+If Windows blocks the app (Smart App Control), turn that setting off temporarily or run from source using the setup steps below.
+
 ## Setup
 
 1. Clone the repo and create a virtual environment:
